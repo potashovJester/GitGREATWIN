@@ -4,8 +4,6 @@
 int main() {
 	JsonService js;
 	Weather w = js.getWeather("weather.json");
-﻿
-
 	XmlService xs;
 	Weather w2 = xs.getWeather("weather.xml");
 
